@@ -13,25 +13,13 @@ class InstituicaoFragment : Fragment() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        var num1 = getView()?.findViewById<EditText>(R.id.num1)
-        var num2 = getView()?.findViewById<EditText>(R.id.num2)
-        val btn_calcular = getView()?.findViewById<Button>(R.id.button)
-        var res = getView()?.findViewById<TextView>(R.id.txt_res)
-
-
     }
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_instituicao, container, false)
-
-        /*var num1 = getView()?.findViewById<EditText>(R.id.num1)
-        var num2 = getView()?.findViewById<EditText>(R.id.num2)
-        val btn_calcular = getView()?.findViewById<Button>(R.id.button)
-        var res = getView()?.findViewById<TextView>(R.id.txt_res)*/
 
     }
 
